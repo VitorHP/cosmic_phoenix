@@ -1,0 +1,20 @@
+/* This file is for your main application css. */
+
+.list-inline li {
+  display: inline-block
+}
+
+.phase-list {
+  font-weight: bold;
+}
+
+.phase-list-item {
+  background-color: #eee;
+  padding: .6rem;
+  border-radius: 10%;
+}
+
+.phase-list-item--active {
+  background-color: #000;
+  color: #fff;
+}

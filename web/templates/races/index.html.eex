@@ -1,0 +1,11 @@
+<h1>Races</h1>
+
+<ul>
+  <%= for race <- @races do %>
+    <li>
+      <a href="<%= races_path(@conn, :show, race["name"]) %>">
+        <%= race["name"] %>
+      </a>
+    </li>
+  <% end %>
+</ul>

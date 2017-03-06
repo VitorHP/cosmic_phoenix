@@ -1,0 +1,1891 @@
+[{
+    "original_name": "Amoeba",
+    "name": "Ameba",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder de Escorrer. Como um jogador PRINCIPAL, depois das cartas de encontro serem escolhidas mas antes delas serem reveladas, se você tiver pelo menos uma nave no encontro, você PODE USAR este poder para aumentar ou diminuir o número de naves que você tem no encontro. Você pode remover algumas ou todas as suas naves para suas colônias, ou você pode adicionar quantas naves você quiser (mesmo excedendo o máximo normal de quatro) de qualquer uma de suas colônias. Se você vencer o encontro mas não tiver mais naves no encontro, você não receberá uma colônia.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Planejamento",
+            "description": "Como um jogador principal, você pode aumentar ou diminuir o número de suas naves em um encontro em até quatro antes que cartas de encontro sejam selecionadas. Isso pode resultar em você tendo mais de quatro naves no portal de hiperespaço"
+        },
+        "super": {
+            "player": "Somente como Aliado",
+            "phase": "Planejamento",
+            "description": "Você pode usar o seu poder como um Aliado"
+        }
+    }
+}, {
+    "original_name": "Anti-Matter",
+    "name": "Anti-matéria",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Revelar",
+    "power": "Você tem o poder da Negação. Como um jogador PRINCIPAL, depois de você e seu oponente revelarem cartas de ataque, USE este poder para fazer o menor total vencer. Além disso, quando este poder é USADO, suas naves bem como quaisquer naves de aliados atacantes ou defensores são subtraídos da carta do lado apropriado. O total do oponente entretanto continua o mesmo.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Como Jogador Principal ou Aliado",
+            "phase": "Qualquer fase",
+            "description": "Como o jogador principal ou aliado, quando outro jogador tenta usar um Flare Wild, você pode impedi-lo. Use este poder somente contra um flare por encontro."
+        },
+        "super": {
+            "player": "Como qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Durante cada encontro, você pode impedir um jogador de usar um super ou wild flare, parando-o quando ele tenta usar o flare"
+        }
+    }
+}, {
+    "original_name": "Calculator",
+    "name": "Calculador",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder de Equalizar. Como um jogador PRINCIPAL, depois das cartas serem escolhidas mas antes delas serem reveladas, você PODE USAR este poder para declarar uma \"equalização\". Se você fizer isso e ambas as cartas reveladas forem cartas de ataque, o valor da maior carta é reduzido pelo valor da menor carta. . Assim se um ataque 15 e um ataque 8 são jogados, o 15 terá o seu valor reduzido para 7 (15-8=7), mas o 8 mantêm o seu valor de 8. O encontro então é concluído normalmente.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Planejamento",
+            "description": "Como um jogador principal, uma vez que as cartas de encontro sejam selecionadas, mas antes que elas sejam releladas, você pode pedir 'ímpar' ou 'par'. Quando as cartas forem reveladas, se as duas forem ataques e seu total for par ou ímpar como você previu, o valor da carta do oponente é reduzido pelo valor da sua carta. Se você errar, o valor da sua carta é reduzido pelo valor da carta do oponente"
+        },
+        "super": {
+            "player": "Somente como Aliado",
+            "phase": "Planejamento",
+            "description": "Você pode usar seu poder como um Aliado"
+        }
+    }
+}, {
+    "original_name": "Fido",
+    "name": "Fido",
+    "player": "Como QUALQUER jogador",
+    "when": "Opcional",
+    "phase": "Resolução",
+    "power": "Você tem o poder de Buscar. Depois das cartas de encontro serem descartadas no final de um encontro, você PODE USAR este poder para recuperar uma das cartas descartadas e oferecê-la a outro jogador. Se a carta é recusada, você pode mantê-la. Se a carta é aceita, o outro jogador mantêm a carta e então você pode ou buscar uma nave do WARP ou comprar uma carta do maço.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Como Jogador PRINCIPAL",
+            "phase": "Planejamento",
+            "description": "Como um Jogador PRINCIPAL, antes que cartas sejam selecionadas, você pode forçar seu oponente a pegar a carta do topo da pilha de descartes e adiciona-la a sua mão. VOcê então compra uma carta do maço."
+        },
+        "super": {
+            "player": "Qualquer Jogador",
+            "phase": "Resolução",
+            "description": "Quando vãrias cartas de encontro forem descartas ao fim de um encontro, você pode Busca-las uma por uma para os outros jogadores em qualquer ordem que você queira"
+        }
+    }
+}, {
+    "original_name": "Fodder",
+    "name": "Bucha",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Revelar",
+    "power": "Você tem o poder de Oprimir. Como um jogador PRINCIPAL, você PODE USAR este poder depois que você e seu oponente revelarem cartas de ataque em um encontro. Você pode descartar qualquer ou todas as cartas de ataque na sua mão que são maiores que a carta de ataque que você jogou e menores do que a carta jogada pelo seu oponente, adicionando seu valor ao seu total.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Jogador NÃO PRINCIPAL e NÃO ALIADO",
+            "phase": "Revelar",
+            "description": "Se você foi convidado a se juntar a um encontro e recusou, você pode se juntar com uma nave após as cartas serem reveladas."
+        },
+        "super": {
+            "player": "Somente Jogador PRINCIPAL",
+            "phase": "Revelar",
+            "description": "Você pode usar seu poder para descartar cartas de ataque que sejam iguais ou menores que a carta que você jogou."
+        }
+    }
+}, {
+    "original_name": "Hate",
+    "name": "Ódio",
+    "player": "Somente ATACANDO",
+    "when": "Obrigatório",
+    "phase": "Início do turno",
+    "power": "Você tem o poder da Raiva. No início do seu turno, USE este poder para forçar todo jogador a descartar uma carta ou perder naves. Primeiro, escolha e descarte uma carta da sua mão. Todo outro jogador deve então escolher descartar uma carta do mesmo tipo (ataque, negociação, artefato, etc.) ou então perder 3 naves de sua escolha para o WARP. Se você descartar uma carta de ataque, seus oponentes devem descartar uma carta de ataque de igual ou maior valor. Se um oponente não tem cartas do tipo para descartar, ele ou ela deve perder naves imediatamente. Se, depois de usar este poder, você não tiver nenhuma carta de encontro em sua mão, compre uma nova mão.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Planejamento",
+            "description": "Como um Jogador PRINCIPAL, antes que cartas de encontro sejam selecionadas, você pode forçar seu oponente a descartar uma carta aleatoriamente da mão dele. Se ele não possuir cartas de encontro restantes após fazê-lo, você ganha o encontro."
+        },
+        "super": {
+            "player": "Somente ATACANDO",
+            "phase": "Início do Turno",
+            "description": "Ao invés de descartar a carta para usar seu poder, você pode mostrar a carta aos outros jogadores e então retorna-la a sua mão"
+        }
+    }
+}, {
+    "original_name": "Healer",
+    "name": "Curandeiro",
+    "player": "Como QUALQUER jogador",
+    "when": "Opcional",
+    "phase": "-",
+    "power": "Você tem o poder de Curar. Quando outro jogador perde naves para o WARP ou tem naves removidas do jogo, você PODE USAR este poder para retornar para aquele jogador todas as naves que ele ou ela acabou de perder e ganhar uma carta do maço. Ser curado não previne um jogador de receber compensação. Um jogador curado repõe as naves dele ou dela para qualquer uma das colônias dele ou dela. Durante um encontro você pode curar vários jogadores, comprando uma carta para cada jogador curado.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Qualquer Jogador",
+            "phase": "Qualquer fase",
+            "description": "Você pode fazer com que qualquer 'Cosmic Zap' jogado contra você seja descartado sem qualquer efeito"
+        },
+        "super": {
+            "player": "Qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Você pode aumentar sua taxa para curar outros jogadores em uma carta do maço para cada nave que você curar"
+        }
+    }
+}, {
+    "original_name": "Human",
+    "name": "Humano",
+    "player": "Jogador PRINCIPAL ou Aliado",
+    "when": "Obrigatório",
+    "phase": "Revelar",
+    "power": "Você tem o poder da Humanidade. Como um jogador PRINCIPAL ou aliado, depois das cartas de encontro serem reveladas, USE este poder para somar 4 ao total do seu lado. Se este poder é anulado, o seu lado automaticamente vence o encontro.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Revelar",
+            "description": "Como um Jogador PRINCIPAL, se seu oponente, não é o Huano, você pode usar este flare após cartas de encontro serem reveladas mpara mudar sua carta de encontro por uma carta de ataque 42. Após isso, dê este flare ao Humano. Se o Humano não estiver em jogo, descarte este flare ao usa-lo"
+        },
+        "super": {
+            "player": "Jogador PRINCIPAL ou ALIADO",
+            "phase": "Revelar",
+            "description": "Você pode fazer com que seu poder adicione 9 ao total do seu lado ao invés de 4. Além disso, você pode descartar este flare para zappear seu poder"
+        }
+    }
+}, {
+    "original_name": "Kamikaze",
+    "name": "Kamikaze",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder do Sacrifício. Como um jogador PRINCIPAL, antes das cartas de encontro serem escolhidas, você PODE USAR este poder para enviar até quatro de suas naves de qualquer uma de suas colônias para o WARP. Para cada nave que você envia para o WARP, compre duas cartas do maço. Se este poder é anulado, você não perde as naves sacrificadas para o WARP.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Planejamento",
+            "description": "Como um Jogador PRINCIPAL, após cartas de encontro serem selecionadas, mas antes que elas sejam reveladas, você pode enviar até quatro de suas naves que não estejam no encontro para o warp para adicionar 3 ao total do seu lado para cada nave sacrificada."
+        },
+        "super": {
+            "player": "Somente ATACANDO",
+            "phase": "Reagrupar",
+            "description": "Você pode recuperar 3 naves do warp durante cada uma de suas fases de Reagrupar ao invés de somente uma"
+        }
+    }
+}, {
+    "original_name": "Mind",
+    "name": "Mente",
+    "player": "Como QUALQUER jogador",
+    "when": "Opcional",
+    "phase": "Aliança",
+    "power": "Você tem o poder do Conhecimento. Antes dos aliados serem convidados em um encontro, você PODE USAR este poder para olhar toda a mão de um dos jogadores principais. Se você é um jogador PRINCIPAL, você pode olhar a mão do seu oponente. Você não pode dizer aos outros jogadores quais cartas você vê na mão de um jogador usando este poder.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Qualquer Jogador",
+            "phase": "Qualquer fase",
+            "description": "Sempre que outro jogador comprar uma carta do maço, você pode usar este flare. Pelo resto do encontro, cada vez que aquele jogador for comprar uma carta do maço, você pode comprar a carta do maço, olha-la e então da-la ao jogador. Você não pode compartilhar esta informação com os outros jogadores."
+        },
+        "super": {
+            "player": "Como Jogador NÂO PRINCIPAL",
+            "phase": "Aliança",
+            "description": "Quando você NÃO FOR UM JOGADOR PRINCIPAL, usar seu pode permite que você olhe a mão dos dois jogadores principais"
+        }
+    }
+}, {
+    "original_name": "Mirror",
+    "name": "Espelho",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Reversão. Como um jogador PRINCIPAL, depois das cartas de encontro serem selecionadas mas antes delas serem reveladas, você PODE usar este poder para chamar uma reversão. Isso muda o valor de qualquer cartas de ataque que são reveladas neste encontro revertendo seus dígitos. Por exemplo, este poder transforma um ataque 15 em um 51, um 20 em um 02 e um 08 em um 80. Resolva o encontro usando os valores revertidos.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Revelar",
+            "description": "Como um Jogador PRINCIPAL, após cartas de encontro serem reveladas, você pode trocar sua carta de encontro por uma cópia da carta de encontro do seu oponente."
+        },
+        "super": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Planejamento",
+            "description": "Quando declarando uma Reversão, você pode declarar que a reversão vai afetar somente sua carta ou a do oponente. Esta declaração ainda deve ser feita antes das cartas serem reveladas"
+        }
+    }
+}, {
+    "original_name": "Mite",
+    "name": "Ácaro",
+    "player": "Somente ATACANDO",
+    "when": "Obrigatório",
+    "phase": "Lançamento",
+    "power": "Você tem o poder de vociferar. Como atacante, antes dos aliados serem convidados, se o defensor tiver mais do que três cartas na mão, USE este poder para vociferar. O defensor deve ou descartar (aleatoriamente) até ficar com três cartas ou deixar você estabelecer uma colônia no planeta alvo. Se o defensor der uma colônia, aterrise quaisquer naves que você tenha no portão hyperespacial no planeta alvo. Eles coexistem com as naves de defesa, as quais não irão para o WARP e o encontro imediatamente termina com sucesso. Se o defensor descarta até ficar com 3 cartas aleatoriamente, o encontro continua normalmente.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Aliança",
+            "description": "Como um Jogador PRINCIPAL, depois de aliançãs serem formadas, se seu oponente tiver mais naves aliadas com ele do que você tem aliadas com você, você pode forçar todas as naves aliadas a retornar para suas respectivas colônias"
+        },
+        "super": {
+            "player": "Somente ATACANDO",
+            "phase": "Lançamento",
+            "description": "Quando você usa seu poder, você pode pegar quaisquer cartas que seu oponente descarte como resultado do seu poder, olha-las e adicionar quaisquer delas ou todas elas a sua mão descartando as que você não quiser."
+        }
+    }
+}, {
+    "original_name": "Philanthopist",
+    "name": "Filantropo",
+    "player": "Jogador PRINCIPAL ou Aliado",
+    "when": "Opcional",
+    "phase": "Aliança",
+    "power": "Você tem o poder de Doar. Como um jogador PRINCIPAL ou aliado, depois das alianças formadas, você PODE USAR este poder para dar uma carta da sua mão para qualquer jogador (seu oponente, se você é um jogador PRINCIPAL). Seu oponente imediatamente adiciona a carta para a mão dele ou dela e pode jogá-la normalmente. Se, depois de usar este poder, você não tem nenhuma carta de encontro e você é um jogador PRINCIPAL, você compra uma nova mão.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Como qualquer jogador",
+            "phase": "Reagrupar",
+            "description": "No início de um encontro, você pode enviar uma de suas naves para o warp para emprestar seu poder a outro jogador pela duração do encontro. Até o fim do encontro, aquele jogador é considerado como tendo seu poder ao invés do próprio. Você não pode usar seu poder enquanto ele está emprestado. O jogador não recusar o empréstimo do seu poder."
+        },
+        "super": {
+            "player": "Somente como Jogador Principal ou Aliado",
+            "phase": "Planejamento",
+            "description": "Qualquer jogador para quem você der uma carta de encontro deve joga-la naquele encontro se puder"
+        }
+    }
+}, {
+    "original_name": "Reincarnator",
+    "name": "Reincarnador",
+    "player": "Jogador PRINCIPAL ou ALIADO",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder da Reincarnação. Como um jogador PRINCIPAL ou aliado, quando você perde um encontro (ou falha em um acordo), USE este poder para reincarnar. Compre uma ficha de alien aleatoriamente da pilha de fichas não usadas e torne-se aquele alien. Se o alien possui um texto de PREPARAÇÃO DE JOGO ou não for permitido no jogo corrente, compre novamente. Se você perder um encontro mais tarde, descarte aquele alien e compre um novo. Este poder permanece com você enquanto você usa os outros. Aliens com o poder de copiar seu poder podem fazê-lo (copiando o seu poder de Reincarnador e qualquer outro poder que você estiver reincarnadoo), mas se eles perdem um encontro enquanto estiverem fazendo isso, então eles devem reincarnar, perdendo o seu poder original.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Como qualquer jogador",
+            "phase": "Resolução",
+            "description": "Depois que outro jogador que não seja o Reincarnador perder um encontro ou falhar em fazer uma negociação, você pode dar este plar para aquele jogador. Imediatamente após o fim deste encontro, aquele jogador deve descartar o seu poder atual e comprar um novo. Alienígenas com textos de Game Setup ou alienígenas não permitidos no jogo atual devem ser descartados e o jogador deve comprar novamente."
+        },
+        "super": {
+            "player": "Somente como Jogador Principal ou Aliado",
+            "phase": "Resolução",
+            "description": "Você não é obrigado a reencarnar quando perde um encontro ou falha em fazer uma negociação"
+        }
+    }
+}, {
+    "original_name": "Remora",
+    "name": "Remora",
+    "player": "Como QUALQUER jogador jogador",
+    "when": "Opcional",
+    "phase": "-",
+    "power": "Você tem o poder de Agarrar. Sempre que outro jogador recuperar uma ou mais naves do WARP, você PODE USAR este poder para recuperar uma de suas naves do WARP também. Você não pode recuperar uma nave do WARP durante o mesmo encontro no qual ela foi para o WARP.  Sempre que outro jogador comprar uma ou mais cartas do maço, você PODE USAR este poder para comprar uma ou mais cartas do maço também.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Como qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Quando outro jogador usa um wild ou super flare, você pode comprar uma carta do maço"
+        },
+        "super": {
+            "player": "Qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Quando outro ogador ganha uma colônia, você pode comprar uma carta do maço ou recuperar uma nave do warp. Se multiplos jogadores ganharem colônias de uma vez, compre uma carta ou recupere uma nave para cada um."
+        }
+    }
+}, {
+    "original_name": "Shadow",
+    "name": "Sombra",
+    "player": "Como QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "Destino",
+    "power": "Você tem o poder de Executar. Sempre que qualquer cor de outro jogador ou uma carta especial de destino que mira outro jogador é comprada do maço de destino, USE este poder para escolher uma das naves daquele jogador de qualquer colônia de sua escolha e mande-a para o WARP. Em cartas de destino curingas, você pode executar uma nave pertencente à qualquer outro jogador independente de quem o atacante escolher atacar.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Somente como Defesa",
+            "phase": "Resolução",
+            "description": "Como a defesa, quando você perder um encontro em que seu oponente jogou uma carta de ataque, você pode enviar uma de suas naves que não estejam no encontro para o warp para levar todas as naves oponentes para o warp com você. Ao invés de ganhar, os jogadores oponentes não ganham colônias no seu planeta."
+        },
+        "super": {
+            "player": "Somente como Ataque",
+            "phase": "Destino",
+            "description": "Quando você executa uma nave durante seu turno, você pode troca-la por uma de suas naves recuperadas do warp"
+        }
+    }
+}, {
+    "original_name": "Tick-Tok",
+    "name": "Tick-Tok",
+    "player": "QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Início do jogo: Coloque 10 (dez) marcadores nesta ficha (oito se jogando com quatro planetas por jogador). Você tem o poder da Paciência. Cada vez que um jogador vencer um encontro como defensor ou um acordo com sucesso for feito entre qualquer dois jogadores, USE este poder para descartar um marcador de sua ficha. Se não houverem mais marcadores nessa ficha, você imediatamente vence o jogo. Você ainda pode vencer o jogo pelo método normal.",
+    "version": "Normal",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "Como qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Cada vez que a pilha de descartes for embaralhada para criar um novo maço, você pode imediatamente estabelecer uma colônia em qualquer um dos planetas natais dos seus oponentes com até quatro de suas naves"
+        },
+        "super": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Resolução",
+            "description": "Cada vez que você ganhar um encontro ou fizer uma negociação, você pode mandar uma de suas naves para o warp para descartar um marcador de sua ficha de alien. Isto é em adição a quaisquer marcadores que você puder descartar através do uso normal do seu poder."
+        }
+    }
+}, {
+    "original_name": "Bully",
+    "name": "Valentão",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Resolução",
+    "power": "Você tem o poder de Intimidar. Como um jogador PRINCIPAL, depois de vencer um encontro no qual ambos os jogadores revelaram cartas de ataque, você PODE USAR este poder para escolher quais naves seu oponente deve perder. Seu oponente perde o mesmo número de naves que ele ou ela tinha no encontro, mas você pega-as de qualquer lugar. Se você está no lado do ataque e deixa qualquer uma das naves do seu oponente no planeta alvo, suas naves coexistem lá com as do seu oponente ao menos que outro efeito de jogo previna você de fazer isso, no caso de você não receber uma colônia e deve retornar suas naves para suas outras colônias. Se você é o defensor, quaisquer naves do seu oponente que você deixou no portão hyperspace retornam para as outras colônias dele ou dela.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Chronos",
+    "name": "Chronos",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Revelar",
+    "power": "Você tem o poder da viagem no Tempo. Como um jogador PRINCIPAL, depois das cartas de encontro serem reveladas, você PODE USAR este poder para chamar uma \"viagem no tempo\". Você então retorna sua carta de encontro revelada para sua mão enquanto o seu oponente coloca a carta de encontro revelada dele ou dela separada. Se seu oponente não tiver mais cartas de encontro na mão e mostrar que não tem, ele ou ela pode instantaneamente retornar a carta de encontro revelada para a mão dele ou dela. Todas as outras cartas jogadas desde o início da fase de planejamento são retornadas para as mãos dos donos. O encontro é então rejogado do início da fase de planejamento. Você e o oponente podem usar cartas em suas mãos, e desta vez o encontro é decisivo. Quando o encontro terminar, seu oponente pega de volta a carta que foi deixada separada.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Cryo",
+    "name": "Crio",
+    "player": "Jogador PRINCIPAL ou Aliado",
+    "when": "Opcional",
+    "phase": "Aliança",
+    "power": "Você tem o poder de Preservar. Como um jogador PRINCIPAL ou aliado, depois dos aliados serem convidados, você PODE USAR este poder para pegar uma carta da sua mão e colocá-la em um compartimento frio, colocando-a virada para baixo nesta ficha. Depois disso, compre uma carta do maço. Cartas nesta ficha estão congeladas e não podem ser olhadas ou compradas por outro jogador, e nem são consideradas parte da sua mão.  Se você tem pelo menos oito cartas nesta ficha, descarte a sua mão a qualquer hora para pegar as cartas da sua ficha como a sua nova mão.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Deuce",
+    "name": "Dual",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Dualidade. Como um jogador PRINCIPAL, depois das cartas serem escolhidas mas antes delas serem reveladas, USE este poder para colocar uma segunda carta de encontro virada para baixo em um lado. Esta segunda carta não é considerada sua carta de encontro e não é afetada por efeitos de jogo que almejam sua carta de encontro, como aqueles do Oráculo ou Feiticeiro. Se ambas as suas cartas de encontro são reveladas para serem ataques, o valor da segunda carta é adicionado ao total do seu lado. Se for uma negociação, então você jogou uma negociação. Depois que o encontro é resolvido, descarte a carta de negociação se você jogou uma, ou a maior carta de ataque se você não jogou, retornando a outra carta de encontro para sua mão.  Quando verificando para ver se você compra uma nova mão, compre uma nova mão se você tem uma ou menos cartas de encontro restantes, ao invés de nenhuma.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Fungus",
+    "name": "Fungo",
+    "player": "Jogador PRINCIPAL ou Aliado",
+    "when": "Obrigatório",
+    "phase": ["Revelar", "Resolução"],
+    "power": "Você tem o poder de Aderir. Como um jogador PRINCIPAL ou aliado, depois que você vence um encontro no qual você tem pelo menos uma nave, USE este poder para capturar quaisquer naves perdidadas, empilhando-as sob uma ou mais de suas naves no encontro ao invés de enviá-las para o WARP (efeitos que poderiam salvar estas naves do WARP, como os poderes do Zumbi ou do Curandeiro não podem prever este efeito). Naves capturadas não têm características especiais, exemplo, Naves do Macro  não valem quatro. Estas pilhas são controladas por você. Cada pilha é considerada sendo uma nave para propósitos de jogo. Naves que são parte de uma pilha são libertadas somente quando a pilha entra no WARP. Naves libertas voltam ao normal e podem deixar o WARP como de costume.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Leviathan",
+    "name": "Leviatan",
+    "player": "Somente ATACANDO",
+    "when": "Opcional",
+    "phase": "Lançamento",
+    "power": "Você tem o poder das Naves mundiais. Como atacante, depois do portal hyperspace estar armado, você PODE USAR este poder para escolher um de seus planetas natais que não tenha naves de outros jogadores e enviá-lo através do portal para atacar como uma nave mundial. Pegue a nave mundial (com todas as suas naves que estão nela) e coloque-a no portal do hiperespaço. Depois das cartas de encontro serem reveladas, adicione 20 ao total do seu lado, mais 1 para cada nave que você tem na sua nave mundial. Se você perder o encontro, retorne a nave mundial para o seu sistema natal, enviando todas as naves nela para o WARP. Se você vencer o encontro, retorne a nave mundial para o seu sistema natal com todas as suas naves nela ainda, embora você pode deixar de uma até quatro naves para trás no planeta em que você efetuou o ataque com sucesso.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Locust",
+    "name": "Gafanhoto",
+    "player": "Como QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "Reagrupar",
+    "power": "Você tem o poder de Devorar. No início de qualquer fase de reagrupamento, se você tem uma colônia estrangeira em um planeta sozinho (exemplo, não há outras naves no planeta com você), USE este poder para devorar o planeta, removendo-o do jogo e colocando-o nesta ficha. Suas naves no planeta voltam para as suas outras colônias.  Cada planeta que você devorou conta como uma colônia estrangeira para efeitos de jogo, mesmo se este poder é perdido ou roubado posteriormente. Se este poder é roubado, planetas devorados não são transferidos com ele.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Merchant",
+    "name": "Mercador",
+    "player": "Jogador PRINCIPAL ou ALIADO",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder de Contratar. Como um jogador PRINCIPAL ou aliado, depois das cartas de encontro serem escolhidas, mas antes delas serem reveladas, se você tem pelo menos uma nave no encontro, você PODE USAR este poder para jogar uma ou mais cartas viradas para baixo da sua mão como naves contratadas. Estas cartas são tratadas como naves extras que você tem no encontro e podem ser jogadas em adição ao seu número normal máximo de 4 naves como atacante ou um aliado. Naves contratadas não podem ser jogadas para seus efeitos de carta e não são consideradas parte da sua mão. Outros jogadores não podem olhar ou comprar naves contratadas. QUALQUER nave contratada que vá para o WARP ou é removida do jogo é descartada. Caso contrário, naves contratadas tornam-se cartas normais novamente e retornam para sua mão no final do encontro.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Seeker",
+    "name": "Seeker",
+    "player": "Jogador PRINCIPAL ou Aliado",
+    "when": "Opcional",
+    "phase": ["Aliança", "Planejamento"],
+    "power": "Você tem o poder da Verdade. Como um jogador PRINCIPAL ou um aliado, você PODE USAR este poder depois das alianças serem formadas mas antes das cartas de encontro serem escolhidas para perguntar a um dos jogadores principais (seu oponente, se você é um jogador PRINCIPAL) uma questão de \"sim ou não\". Aquele jogador deve responder sua questão verdadeiramente. Se sua pergunta envolve as intenções do jogador durante este encontro (como: \"Você está pensando em jogar uma carta de negociação neste encontro?\"), ele ou ela deve responder a verdade. Quando este encontro terminar, o jogador não é mais obrigado a responder a pergunta dele ou dela.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Sniveler",
+    "name": "Lamentador",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Aliança",
+    "power": "Você tem o poder de choramingar. Como um jogador PRINCIPAL, antes dos aliados serem convidados, se você tiver a maioria das naves no WARP, tiver o menor número de colônias estrangeiras do que qualquer jogador ou necessita de uma carta de encontro específica, você PODE USAR este poder para choramigar sobre essas coisas. Se você choraminga sobre suas naves, todos os outros devem concordar em deixar você recuperar todas as suas naves do WARP, ou (se possível) eles (cada um) devem colocar naves no WARP até cada um alcançar o seu número no WARP. Se você choramingar por colônias, os outros jogadores devem concordar em deixar você ter uma colônia estrangeira extra da sua escolha ou eles (cada um) perdem uma colônia estrangeira da escolha deles, retornando aquelas naves para suas outras colônias. Se você choraminga cartas, você diz o nome de uma carta que você não tem (exemplo: Eu não tenho uma carta de ataque maior do que 15). Cada outro jogador deve dar uma carta requisitada ou todos os outros jogadores devem descartar todas as cartas requisitadas que estiverem nas mãos deles. Choramingue somente uma vez por encontro.",
+    "version": "CI",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Graviton",
+    "name": "Graviton",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Gravidade. Como um jogador PRINCIPAL, depois das cartas de encontro serem escolhidas mas antes delas serem reveladas, você PODE USAR este poder e dizer \"dezenas\" ou \"unidades\". Se você fizer isso, quaisquer cartas de ataque reveladas no encontro somente usam aquele dígito como valor. Por exemplo, se você disse \"dezenas,\" um ataque 40 tornaria-se em um ataque 4 e um ataque 09 tornaria-se um ataque 0, mas se você disse \"unidades,\" aquelas mesmas cartas tornariam-se um ataque 0 e um ataque 9.",
+    "version": "CC",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Industrialist",
+    "name": "Industralista",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder de Construir. Como um jogador PRINCIPAL, depois de você perder um encontro no qual você revelou uma carta de ataque, seu oponente deve permitir a você vencer o encontro ao invés de perdê-lo, ou então permitir que você coloque sua carta de ataque virada para cima nesta ficha, adicionando-a à sua \"pilha\". Sua pilha não é parte da sua mão e não pode ser comprada por outros jogadores ou ser afetada por outros poderes.  Como um jogador PRINCIPAL, depois de você revelar uma carta de ataque, USE este poder para adicionar ou subtrair o total de todas as cartas de ataque viradas para cima na pilha do total do seu lado. Por exemplo, se você tem uma carta de ataque 08 e uma carta de ataque 12 nesta ficha, você poderia adicionar ou subtrair 20 do total do seu lado.",
+    "version": "CC",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Invader",
+    "name": "Invasor",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Destino",
+    "power": "Preparação do jogo: Embaralhe as três cartas de destino de \"Invasão!\" (\"Invasion!\") no maço de destino. Estas cartas de destino permitem a você ter um encontro extra quando compradas durante o turno de outro jogador. Depois que você teve um encontro extra pela carta de destino de \"Invasão!\", o jogador que comprou a carta durante o turno dele ou dela recebe outro encontro.  Você tem o poder da Invasão. Como um jogador PRINCIPAL, depois que uma carta de destino de \"Invasão!\" ou uma carta de destino da sua cor é comprada, você PODE USAR este poder para descartar toda a sua mão e comprar uma mão de oito cartas antes de ter o seu encontro extra. Somente use este poder uma vez por encontro.",
+    "version": "CC",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Lunatic",
+    "name": "Lunático",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Aliança",
+    "power": "Você tem o poder da Insanidade. Como um jogador PRINCIPAL, depois dos aliados serem convidados, você PODE USAR este poder para aliar contra você mesmo sem ser convidado. Suas naves no lado perdedor são enviadas para o WARP como é feito normalmente enquanto suas naves no lado vencedor recebem o que quer que seja o que elas receberiam normalmente por vencer, como uma recompensa do defensor ou uma colônia no planeta defendido.",
+    "version": "CC",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Mimic",
+    "name": "Mímico",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Planejamento",
+    "power": "Você tem o poder de Imitar. Como um jogador PRINCIPAL, antes das cartas de encontro serem escolhidas, USE este poder. Se o seu oponente tiver mais cartas na mão que você, compre cartas do maço até você ter justamente tantas cartas quanto o seu oponente. Se seu oponente tem menos cartas na mão do que você, descarte cartas da sua mão (a sua escolha) até ter o mesmo número de cartas que seu oponente.",
+    "version": "CC",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Siren",
+    "name": "Sereia",
+    "player": "Não DEFENDENDO",
+    "when": "Opcional",
+    "phase": "Destino",
+    "power": "Você tem o poder de atrair. Qualquer hora que um jogador cujo sistema natal onde você tem uma colônia é escolhido como defensor, você PODE USAR este poder para mirar o portal do hiperespaço em um dos seus planetas natais nos quais você tem uma colônia (sua escolha qual) e tornar- se o defensor instantâneamente. O encontro então continua normalmente.  Qualquer hora que você vencer um encontro como defensor, você imediatamente ganha uma colônia estrangeira grátis no sistema natal do atacante no planeta de sua escolha.",
+    "version": "CC",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Visionary",
+    "name": "Visionário",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Percepção. Como um jogador PRINCIPAL, antes das cartas de encontro serem escolhidas, você PODE USAR este poder para especificar uma carta de encontro que o seu oponente deve jogar (Por exemplo: \"Você jogará um carta de ataque 06\"). Se o seu oponente não tem a carta, ele ou ela pode jogar qualquer carta de encontro que ele ou ela deseja. Se o seu oponente tem a carta, entrentanto, ele ou ela deve jogá-la ao menos que seja impedido por outro jogador",
+    "version": "CC",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Warhawk",
+    "name": "Falcão de Guerra",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Revelar",
+    "power": "Você tem o poder do ataque. Como um jogador PRINCIPAL, quando o seu oponente revela uma carta de negociação, USE este poder para mudar a carta de negociação para uma carta de ataque de valor: 00.  Como um jogador PRINCIPAL, quando você revela uma carta de negociação, USE este poder para mudá-la para uma carta MORPH.  Como um jogador PRINCIPAL, se ambos você e seu oponente revelarem cartas de negociação, USE este poder para mudar ambas cartas de negociação em cartas de ataque de valor: 00.",
+    "version": "CC",
+    "color": "Amarela",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Barbarian",
+    "name": "Bárbaro",
+    "player": "ATACANDO",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder de pilhar e saquear. Como atacante, depois de você vencer um encontro mas antes da compensação (se houver) ser coletada, USE este poder para pilhar as cartas do oponente. Pegue a mão do oponente e olhe-a. Para cada nave que você tem no encontro, você pode escolher uma carta da mão do seu oponente e adicioná-la para sua mão. Depois disso, descarte as cartas restantes da mão do seu oponente.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal ou Aliado",
+            "phase": "Resolução",
+            "description": "Quando ganhando compensação ou recompensas, você pode olhar as cartas que recebeu e descartar qualquer uma que você não queira. Qualquer uma destas cartas que você descarte, não é substituída"
+        },
+        "super": {
+            "player": "Aliado Ofensivo",
+            "phase": "Resolução",
+            "description": "Você pode usar seu poder como um Aliado Ofensivo"
+        }
+    }
+}, {
+    "original_name": "Chosen",
+    "name": "Escolhido",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Revelar",
+    "power": "Você tem o poder da Intervenção Divina. Como um jogador PRINCIPAL, depois de revelar as cartas de encontro, você PODE USAR este poder para orar por uma intervenção divina uma vez por encontro. Para fazer isso, compre três cartas do maço. Se nenhuma delas forem cartas de encontro, descarte-as e não haverá mais nenhum efeito. Se você comprar qualquer carta de encontro, você pode escolher uma das cartas de encontro compradas e substituir sua carta de encontro revelada (a qual é descartada). Se você revelar uma carta de ataque e escolher outra carta de ataque para a intervenção divina, a nova carta pode substituir ou adicionar seu valor ao valor do carta de ataque revelada, você escolhe. Todas as outras cartas compradas para a intervenção divina são então descartadas e o encontro é resolvido com a nova carta ou o valor da carta.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Planejamento",
+            "description": "Como um jogador principal, antes de cartas de encontro serem selecionadas, você pode comprar uma carta do maço"
+        },
+        "super": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Revelar",
+            "description": "Você pode manter qualquer carta que não seja de encontro do maço enquanto comprando por Intervenção Divina"
+        }
+    }
+}, {
+    "original_name": "Clone",
+    "name": "Clone",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Resolução",
+    "power": "Você tem o poder de replicar. Como um jogador PRINCIPAL, depois que o encontro estiver resolvido (e depois que qualquer compensação é exigida), você PODE USAR este poder para retornar sua carta de encontro para sua mão ao invés de descartá-la.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Como Qualquer Jogador",
+            "phase": "Qualquer Fase",
+            "description": "Você não precisa descartar nenhum artefato que você jogar. Ao invés disso, você pode continuar com ele e usa-lo em um encontro posterior"
+        },
+        "super": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Resolução",
+            "description": "Você pode escolher receber até o dobro da compensação normal, se seu oponente tiver cartas insuficientes"
+        }
+    }
+}, {
+    "original_name": "Cudgel",
+    "name": "Clava",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder de Esmagar. Como um jogador PRINCIPAL, quando você vence um encontro no qual você revelou uma carta de ataque, USE este poder para forçar o seu oponente a perder naves extras da escolha dele ou dela igual ao número de naves que você tinha no encontro, em adição a qualquer naves que ele ou ela já tenha perdido normalmente.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Filch",
+    "name": "Larápio",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Resolução",
+    "power": "Você tem o poder do Roubo. Como um jogador PRINCIPAL, depois que as cartas de encontro forem descartadas ao final de um encontro, você PODE USAR este poder para recuperar a carta do seu oponente da pilha de descarte e adicioná-la para sua mão.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Qualquer Jogador",
+            "phase": "Qualquer fase",
+            "description": "Você pode descartar uma carte de negociação da sua mão para roubar qualquer artefato ou flare assim que ele estiver sendo jogado. A carta roubada não tem efeito na sua vítima preterida, indo ao invés, para sua mão"
+        },
+        "super": {
+            "player": "Qualquer Jogador",
+            "phase": "Resolução",
+            "description": "Você pode roubar qualquer carta de encontro de outro jogador esteja você envolvido no encontro ou não"
+        }
+    }
+}, {
+    "original_name": "Hacker",
+    "name": "Hacker",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Revelar",
+    "power": "Você tem o poder de hackear. Como um jogador PRINCIPAL, quando coletando compensação, você PODE USAR este poder para escolher de qual jogador você coletará a compensação quer esse jogador seja o seu oponente ou não. Você então olha as cartas da mão do jogador e escolhe as cartas que você quer para a compensação.  Adicionamente, quando o seu oponente coleta compensação de você, você PODE USAR este poder para escolher as cartas que ele ou ela pegará.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Como Jogador PRINCIPAL",
+            "phase": "Resolução",
+            "description": "Você pode impedir seu oponente de coletar compensação de você"
+        },
+        "super": {
+            "player": " Como Jogador PRINCIPAL",
+            "phase": "Resolução",
+            "description": "Quando você coleta compensação de um jogador de sua escolha, você pode também dar àquele jogador o mesmo número de cartas a sua escolha de sua mão."
+        }
+    }
+}, {
+    "original_name": "Loser",
+    "name": "Perdedor",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Virada. Como um jogador PRINCIPAL, antes das cartas de encontro serem escolhidas, você PODE USAR este poder para declarar uma virada. Uma vez que uma virada é declarada, ambos jogadores principais devem jogar cartas de ataque se possível. Então, depois das cartas de ataque serem reveladas, o lado vencedor perde e o lado perdedor vence. Isso ocorre depois que todos os outros efeitos de jogo forem resolvidos (como o poder do Humano sendo anulado).",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Planejamento",
+            "description": "Como um Jogador PRINCIPAL, antes das cartas de encontro serem selecionadas, você pode declarar que os dois lados perdem, mandando todas as naves envolvidas para o WARP"
+        },
+        "super": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Revelar",
+            "description": "Você pode esperar até as cartas serem selecionadas, mas antes que elas sejam reveladas para reclarar uma Virada. Quando você faz isso, você e seu oponente não precisam jogar as cartas se possível"
+        }
+    }
+}, {
+    "original_name": "Macron",
+    "name": "Macron",
+    "player": "Jogador PRINCIPAL ou ALIADO",
+    "when": "Obrigatório",
+    "phase": ["Lançamento", "Aliança"],
+    "power": "Você tem o poder da Massa. Quando você for o atacante, USE este poder antes de enviar naves em um encontro. Quando você for o defensor ou um aliado, USE este poder depois dos aliados serem convidados. Se você é o atacante ou um aliado, você pode somente enviar uma nave para o encontro. Cada uma de suas naves adicionam 4 ao total do seu lado no encontro ao invés de 1. Quando coletando compensação ou recompensas, cada uma de suas naves valem duas naves.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Como Jogador PRINCIPAL ou ALIADO",
+            "phase": "Revelar",
+            "description": "Como um Jogador PRINCIPAL ou ALIADO, após você revelar uma carta de ataque em um encontro, você pode adicionar 1 ao total do seu lado por cada nave que você possui no encontro"
+        },
+        "super": {
+            "player": "Somente ATACANDO ou ALIADO",
+            "phase": "Lançamento",
+            "description": "Como jogador ATACANDO ou ALIADO você lançar até quatro naves no portal do hiperespaço"
+        }
+    }
+}, {
+    "original_name": "Miser",
+    "name": "Avarento",
+    "player": "Como QUALQUER jogador jogador",
+    "when": "Opcional",
+    "phase": "-",
+    "power": "Preparação do jogo: Você deve ter duas mãos de oito cartas cada. Olhe-as e escolha uma mão para o seu \"tesouro\". Coloque-o virado para baixo nesta ficha.  Você tem o poder de Acumular. Sempre que você desejar jogar uma carta, você PODE USAR este poder para jogar uma carta de seu tesouro ao invés da sua mão normal. Você não pode adicionar cartas que você ganha para o seu tesouro, e outros jogadores não podem olhar ou comprar cartas do seu tesouro. Se não houverem cartas de encontro no seu tesouro, você pode revelá-lo e então descartá-lo e pegar oito novas cartas para o seu tesouro.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Como QUALQUER jogador",
+            "phase": "Qualquer fase",
+            "description": "Quando você comrprar uma nova mão ou outro jogador receber compensação de você, você pode colocar esta carta e duas outras de face para baixo a sua frete até após a troca. Se compensação for pega de você, mas cartas viradas para baixo não pode ser tradas de você. Se estiver comrando uma nova mão, você recebe uma nova mão cheia em adição às cartas viradas para baixo."
+        },
+        "super": {
+            "player": "Somente DEFENDENDO",
+            "phase": "Reagrupamento",
+            "description": "No início de cada um de seus encontros, você pode comprar uma carta do maço e adiciona-la a sua mão"
+        }
+    }
+}, {
+    "original_name": "Mutant",
+    "name": "Mutante",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Aliança",
+    "power": "Você tem o poder de Regenerar. Como um jogador PRINCIPAL, antes dos aliados serem convidados, você PODE USAR este poder se você tiver menos do que oito cartas para completar a sua mão. Para fazer isso, você compra cartas uma de cada vez aleatoriamente de qualquer jogador(es) ou do maço. Compre até você ter uma mão cheia de oito cartas.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Resolução",
+            "description": "Como um Jogador PRINCIPAL, se você vencer um encontro ou fizer uma negociação, você pode pegar uma carta aleatoriamente do seu popnente de de cada um dos seus aliados"
+        },
+        "super": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Aliança",
+            "description": "Como um Jogador PRINCIPAL, você pode descartar até 3 cartas da sua mão antes de usar o seu poder para recomprar sua mão"
+        }
+    }
+}, {
+    "original_name": "Observer",
+    "name": "Observador",
+    "player": "Jogador PRINCIPAL ou ALIADO",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder de Proteger. Como um aliado, sempre que você perder naves para o WARP, USE este poder para instantâneamente retorná-las para qualquer uma de suas colônias.  Como um jogador PRINCIPAL, quando qualquer um de seus aliados necessariamente perderem naves para o WARP, USE este poder para instantâneamente permitir que seus aliados retornem suas naves para qualquer uma de suas colônias da escolha deles.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Aliança",
+            "description": "Como Jogador PRINCIPAL, após alianças serem formadas, você pode permitir a cada jogador que se aliou a você a comprar uma carta do maço."
+        },
+        "super": {
+            "player": "Jogador PRINCIPAL ou ALIADO",
+            "phase": "Lançamento",
+            "description": "Quando você lança naves com um ALIADO ou ATACANDO, você pode resgatar uma nave do WARP para imediatamente lança-la. Como jogador ATACANDO, esta nave é somada às naves que você resgata normalmente durante a fase de REAGRUPAMENTO, mas não permite que você exceda o limite de 4 naves no portão de hiperespaço"
+        }
+    }
+}, {
+    "original_name": "Oracle",
+    "name": "Oráculo",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Planejamento",
+    "power": "Você tem o poder de prever. Como um Jogador PRINCIPAL, antes das cartas de encontro serem escolhidas, USE este poder para forçar o seu oponente a jogar a carta dele de encontro virada para cima. Somente depois de você ter visto a carta do seu oponente, você escolhe e joga a sua carta.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Planejamento",
+            "description": "Como Jogador Principal, antes das cartas de encontro serem selecionadas, você pode misturar sua mão com a mãod do seu oponente e então randomicamente pegar o número de cartas que você tinha na sua mão, entregando o resto ao seu oponente."
+        },
+        "super": {
+            "player": "Jogador PRINCIPAL",
+            "phase": "Revelar",
+            "description": "Como Jogador Principal, você ppode terminar um encontro depois do seu oponente revelar a carta dele. Seu oponente pega sua carta de volta, todas as naves no portal retoranam a suas colônias e o jogo continua como se uma negociação houvesse sido feita."
+        }
+    }
+}, {
+    "original_name": "Pacifist",
+    "name": "Pacifista",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Revelar",
+    "power": "Você tem o poder da Paz. Como um jogador PRINCIPAL, se você revelar uma carta de negociação e seu oponente revelar uma carta de ataque, USE este poder para vencer o encontro. Se ambos revelarem cartas de negociação, você tentará fazer um acordo normalmente.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Como Jogador Principal",
+            "phase": "Relevar",
+            "description": "Como um Jogador Principal, depois de revelar uma varta de Negociação e seu oponente revelar uma carta de ataque, você pode mudar sua carta de negociação por uma carta que ataque 15"
+        },
+        "super": {
+            "player": "Como Jogador Principal",
+            "phase": "Resolução",
+            "description": "Quando você falha em uma Negociação, você pode perder 2 naves a menos para o warp e forçar seu oponente a perder duas naves extras para o warp"
+        }
+    }
+}, {
+    "original_name": "Parasite",
+    "name": "Parasita",
+    "player": "NÃO Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Aliança",
+    "power": "Você tem o poder de Infestar. Ao menos especificamente previsto por algum outro efeito de jogo (como o arterfato: Force Field - Campo de Força-), quando for sua vez de aliar, você PODE USAR este poder para se aliar (mandando de 1 a 4 naves) em um lado de um encontro como se tivesse sido convidado, mesmo que você não tenha sido.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Quando outro jogador perde o uso de seu poder devido a controlar planetas de menos, você pode imadiatamente estabelecer uma colônia em um de seus planetas natais com uma de suas naves. Sua nave coexiste com quaisquer navez que já estejam no planeta. Você pode estabelecer outra colônia cada vez que um jogador recuperar seu poder e perde-lo de novo."
+        },
+        "super": {
+            "player": "Somente como Aliado",
+            "phase": "Lançamento",
+            "description": "Como um Aliado, você pode lançar quantas naves você quiser"
+        }
+    }
+}, {
+    "original_name": "Reserve",
+    "name": "Reserva",
+    "player": "Jogador PRINCIPAL ou ALIADO",
+    "when": "Opcional",
+    "phase": "Revelar",
+    "power": "Você tem o poder do Reforço. Como um jogador PRINCIPAL ou aliado, depois das cartas de encontro serem reveladas, você PODE USAR este poder para jogar uma ou mais cartas de ataque de valor 06 ou menos da sua mão como se elas fossem cartas de reforço do valor listado na carta.  Como um Jogador PRINCIPAL ou aliado, quando outro jogador joga uma carta de reforço, você PODE USAR este poder e descartar uma carta de negociação para cancelar e descartar a carta de reforço jogada pelo outro jogador.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Como qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Sempre que outro jogador descartas uma carta de reforço (seja jogando-a ou não), você pega-la e adiciona-la a sua mão. Cartas de reforço que você joga são descartadas normalmente."
+        },
+        "super": {
+            "player": "Somente como Jogador Principal ou Aliado",
+            "phase": "Revelar",
+            "description": "Você pode usar seu poder para jogar qualquer carta de ataque de 9 ou menos como se fosse um reforço"
+        }
+    }
+}, {
+    "original_name": "Sorcerer",
+    "name": "Feiticeiro",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Magia. Como um jogador PRINCIPAL, depois das cartas de encontro serem escolhidas, mas antes delas serem reveladas, você PODE USAR este poder para trocar cartas de encontro com o seu oponente de tal forma que ele ou ela revela sua carta e você revela a carta do seu oponente.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Como qualquer jogador",
+            "phase": "Planejamento",
+            "description": "Quando o Feiticeiro não for um jogador principal, antes das cartas serem selecionadas durante um encontro, você pode forçar os jogadores principais a trocar poderes alienígenas um com o outro. The mantém seus novos poderes após o fim do encontro. Depois de usar este flare, dê o para o Feiticeiro. Se o Feiticeiro não estiver em jogo, descarte este flare ao usa-lo."
+        },
+        "super": {
+            "player": "Somente como Aliado",
+            "phase": "Planejamento",
+            "description": "Você pode usar seu poder como um aliado trocando as cartas de encontro dos Jogadores Principais"
+        }
+    }
+}, {
+    "original_name": "Spiff",
+    "name": "Spiff",
+    "player": "ATACANDO",
+    "when": "Opcional",
+    "phase": "Resolução",
+    "power": "Você tem o poder de Colidir terra. Como atacante, quando você perde um encontro, se ambos jogadores revelaram cartas de ataque e o seu total for 10 ou mais (10+) a menos do que o total do defensor, você PODE USAR este poder para pousar uma de suas naves que deveria ser perdida para o WARP no planeta defensivo vencedor. A nave coexiste com as naves que já estão lá. Este poder não permite a você coexistir em lugares ou com aliens que dizem o contrário.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Somente como Defesa",
+            "phase": "Resolução",
+            "description": "como a defesa, quando você perder um encontro, você pode deixar uma de suas naves no planeta ao invés de manda-la para o warp. Ela coexiste com as naves ofensivas"
+        },
+        "super": {
+            "player": "Somente como Ataque",
+            "phase": "Resolução",
+            "description": "Você pode usar seu poder para Colidir Terra se você perder por um total de 5 ou mais ao invés de 10"
+        }
+    }
+}, {
+    "original_name": "Trader",
+    "name": "Negociante",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Transferência. Como um jogador PRINCIPAL, antes das cartas de encontro serem escolhidas, você PODE USAR este poder para trocar todas as cartas da mão com o seu oponente. Cada um então mantém sua nova mão.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Aliança",
+            "description": "Como um jogador principal, antes que alianças sejam declaradas, você pode comprar uma cartar aleatória da mão do seu oponente e adiciona-la a sua mão. Você deve então dar a seu oponente uma carta de sua escolha (até mesmo a carta que você acabou de comprar) em retorno"
+        },
+        "super": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Planejamento",
+            "description": "Você pode usar seu poder para trocar de mão com qualquer jogador. Não somente o jogador oponente."
+        }
+    }
+}, {
+    "original_name": "Vacuum",
+    "name": "Vácuo",
+    "player": "QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Você tem o poder da Catarse. Sempre que você perde naves para o WARP, USE este poder para levar um número igual de outras naves. Você especifica quais jogadores devem perdê-las e quantas cada jogador deve perder. Os jogadores alvos decidem de qual colônia ou colônias as naves serão retiradas. Naves perdidas para o Vacuum (Vácuo) desta maneira são em adição à quaisquer naves normalmente perdidas em um encontro.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Como qualquer jogador",
+            "phase": "Revelar",
+            "description": "Para cada jogador principal que não seja você, que revelar uma carta de ataque, você pode recuperar uma nave do warp"
+        },
+        "super": {
+            "player": "Como qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Você pode escolher quais naves oponentes são perdidas para o warp quando usa seu poder"
+        }
+    }
+}, {
+    "original_name": "Vulch",
+    "name": "Vulch",
+    "player": "QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Você tem o poder do Salvamento. Sempre que qualquer outro jogador descartar uma carta de artefato (jogando-a ou não), USE este poder para adicionar o artefato para sua mão. Quaisquer cartas de artefato que você jogar são descartadas normalmente e não podem ser salvas.  Se você comprar uma nova mão, você mantêm suas cartas de artefatos antigas depois de revelá-las, então compre oito novas cartas em adição aos artefatos.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Resolução",
+            "description": "Se você vencer um encontro ( ou fizer uma negociação ) como um Jogador Principal, você pode forçar seu oponente a te dar a sua mão uma carta por vez. Descarte cada carta até você ganhar uma que queira. Você põe esta carta em sua mão e seu oponente fica com o que sobrar. Se sobrar alguma coisa."
+        },
+        "super": {
+            "player": "Somente como aliado",
+            "phase": "Qualquer fase",
+            "description": "Você pode usar seu poder para coletar quaisquer flares descartados ou artefatos"
+        }
+    }
+}, {
+    "original_name": "Warrior",
+    "name": "Guerreiro",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Revelar",
+    "power": "Você tem o poder do Domínio. Adicione um marcador nesta ficha cada vez que você vencer um encontro (ou fazer um acordo) e dois marcadores cada vez que você perder (ou falhar em um acordo). Em ambos os casos, adicione um marcador extra se estiver jogando com quatro planetas por jogador.  Como um Jogador PRINCIPAL, depois de revelar uma carta de ataque em um encontro, USE este poder para adicionar 1 ao seu total para cada marcador que você tiver nesta ficha. Marcadores não são descartados desta ficha depois disso.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Somente como Defesa",
+            "phase": "Resolução",
+            "description": "Quando você é a defesa, imediatamente depois que o encontro acabar, você pode encontrar o Ataque em seu mundo nativo.Depois do seu encontro, a ordem normal de jogadas continua onde parou"
+        },
+        "super": {
+            "player": "Somente como Aliado",
+            "phase": "Revelar",
+            "description": "Você pode usar seu poder para adicionar seus marcadores ao total do seu lado mesmo como um aliado"
+        }
+    }
+}, {
+    "original_name": "Will",
+    "name": "Vontade",
+    "player": "Somente ATACANDO",
+    "when": "Obrigatório",
+    "phase": "Lançamento",
+    "power": "Você tem o poder da Escolha. Como um atacante, depois que você comprar do maço de destino, USE este poder para encontrar qualquer alien em qualquer planeta de sua escolha ao invés de encontrar o alien mostrado pela carta de destino comprada (por exemplo, você poderia escolher encontrar as naves do Vírus no planeta do Mente, mesmo se você fosse direcionado a ter um encontro com o Oráculo pela carta de destino). Quaisquer outros efeitos causados pela carta de destino comprada ainda continuam valendo normalmente.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Somente como Ataque",
+            "phase": "Destino",
+            "description": "Como o Ataque, quando você compar a cor de um jogador do maço de destino, você pode ter um encontro com aquele jogador em qualquer sistema e não somente o sistema nativo dele"
+        },
+        "super": {
+            "player": "Somente como Ataque",
+            "phase": "Destino",
+            "description": "Você pode olhar a mão de qualquer jogador antes de decidir quem você vai encontrar"
+        }
+    }
+}, {
+    "original_name": "Zombie",
+    "name": "Zumbi",
+    "player": "QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Você tem o poder da Imortalidade. Sempre que você perde naves para o WARP, USE este poder para instantâneamente retorná-las para qualquer uma de suas colônias.  Adicionamente, você pode libertar qualquer naves dos jogadores do WARP (de volta para qualquer colônias que ela ou ela tenha) como parte de um acordo.",
+    "version": "Normal",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "Como qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Cada vez que você perder naves para o warp, você impedir que uma de suas naves vã para o warp, fazendo com que ela retorne a uma de suas colônias ao invés"
+        },
+        "super": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Aliança",
+            "description": "Cada jogador que se aliar com você durante um encontro pode recuperar uma nave do warp (se houver alguma) e colocá-la no encontro. Esta nave não conta para o limite normal de quatro naves em um encontro."
+        }
+    }
+}, {
+    "original_name": "Ethic",
+    "name": "Ético",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder da Culpa. Como um jogador PRINCIPAL, depois que você perde um encontro no qual ambos os jogadores principais revelaram cartas de ataque, USE este poder para coletar compensação do seu oponente como se você tivesse jogado uma carta de negociação.  Sempre que você ganha compensação, você pode comprar algumas ou todas as cartas do maço ao invés das cartas do seu oponente.",
+    "version": "CI",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Fury",
+    "name": "Fúria",
+    "player": "Como QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Você tem o poder da Vingança. Cada vez que uma ou mais de suas naves são perdidas para o WARP ou removida do jogo, USE este poder para colocar um marcador nesta ficha para cada uma das naves perdidas para o WARP ou removidas do jogo.  Como um jogador PRINCIPAL ou aliado, depois das cartas de encontro serem escolhidas mas antes delas serem reveladas, descarte qualquer número de marcadores desta ficha para adicionar ou subtrair 3 do total do seu lado para cada marcador que você descarta. Marcadores descartados são gastos e não retornam para esta ficha independentemente do resultado do encontro.",
+    "version": "CI",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Guerrilla",
+    "name": "Guerrilla",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder do Atrito. Como um jogador PRINCIPAL, depois que você perde um encontro, USE este poder para enfraquecer seu oponente e cada um dos aliados dele ou dela. Cada jogador que você enfraquece perde todas menos uma nave dele ou dela do encontro para o WARP.",
+    "version": "CI",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Mercenary",
+    "name": "Mercenário",
+    "player": "Jogador PRINCIPAL ou Aliado ofensivo",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder do Caçador de Recompensas. Como um jogador PRINCIPAL ou aliado ofensivo, depois que seu lado vence um encontro, USE este poder para ganhar recompensas de defesa como se você fosse um aliado de defesa (recuperar uma de suas naves do WARP ou comprar uma carta do maço para cada nave que você tem no encontro). Esta ação é em adição a qualquer outros benefícios que você recebe normalmente por vencer um encontro.",
+    "version": "CI",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Symbiote",
+    "name": "Simbionte",
+    "player": "Como QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Preparação do jogo: Escolha a cor de um jogador não usado e pegue as 20 naves daquela cor (16 em um jogo com 4 planetas), colocando duas vezes o número de naves em cada um dos seus planetas. A sua cor de jogador é aquela dos planetas que você usa. Não use este poder ao menos que você tenha a cor de um jogador não usado.  Você tem o poder da Simbiose. Você tem duas vezes o número normal de naves. Seu poder não pode ser anulado, perdido, roubado ou copiado de nenhuma maneira.",
+    "version": "CI",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Cavalry",
+    "name": "Cavalaria",
+    "player": "ALIADO",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder do Reforço. Como um aliado, depois das cartas de encontro serem escolhidas mas antes delas serem reveladas, você PODE USAR este poder para jogar uma carta de ataque ou de negociação da sua mão virada para baixo que não fará parte de nenhum lado. Esta segunda carta não é considerada sua carta de encontro e não é afetada por outros efeitos de jogo que alvejam a carta de encontro do seu lado, como os poderes do Oracle (Oráculo) ou Sorcerer (Feiticeiro). Revele sua segunda carta quando as cartas de encontro são reveladas. Se você revela sua segunda carta de encontro e ela for uma carta de ataque, adicione-a ao total do seu lado. Isso não terá efeito se a carta de encontro do seu lado é uma negociação. Se você revela uma negociação como sua segunda carta e o seu lado perde o encontro, você recebe compensação depois que o jogador PRINCIPAL do seu lado tiver recebido compensação, se aplicável. Em qualquer caso, sua carta é descartada após o uso.",
+    "version": "CC",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Changeling",
+    "name": "Changeling",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Destino",
+    "power": "Você tem o poder de Mudar de forma. Como um jogador PRINCIPAL, depois da defesa ser determinada, USE este poder. Compre uma carta do maço e adicione-a à sua mão ou troque os poderes de alien com o seu oponente. Este poder pode ser usado somente uma vez por encontro. Quando trocando poderes de aliens, você pega todas as facetas daquele poder - exemplo, o tesouro do apostador, os pontos do Warrior (Guerreiro), a garra do Claw (Garra), etc.",
+    "version": "CC",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Empath",
+    "name": "Empath",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Revelar",
+    "power": "Você tem o poder da Harmonia. Como um jogador PRINCIPAL, depois do jogador PRINCIPAL revelar uma negociação e o outro jogador PRINCIPAL revelar um ataque, você PODE USAR este poder para mudar a carta revelada para uma negociação. Você e o outro Jogador PRINCIPAL então tentam fazer um acordo.",
+    "version": "CC",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Glutton",
+    "name": "Glutão",
+    "player": "Como QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Você tem o poder de Engolir. Sempre que você recupera uma ou mais naves do WARP, USE este poder para recuperar até duas naves extras suas do WARP.  Sempre que você compra uma ou mais cartas do maço (incluindo quando você está dando sua mão inicial) ou da mão de outro jogador, USE este poder para comprar duas cartas extras da mesma fonte.",
+    "version": "CC",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Trickster",
+    "name": "Trapaceiro",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Aliança",
+    "power": "Você tem o poder das Possibilidades. Como um jogador PRINCIPAL, depois das alianças serem formadas, você PODE USAR este poder para manipular as probabilidades ao invés de ter um encontro normal. Se você o fizer, pegue um marcador cósmico e coloque-o secretamente em uma de suas mãos. O outro Jogador PRINCIPAL então escolhe um dos seus punhos fechados. Você então abre os dois punhos, revelando em qual mão está o marcador. Se o seu oponente escolheu a mão contendo o marcador, você perde o encontro. Se ele ou ela escolheu sua mão vazia, você vence o encontro. Em todo caso, a fase de resolução é então realizada como de costume.",
+    "version": "CC",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Xenophile",
+    "name": "Xenófilo",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Revelar",
+    "power": "Você tem o poder de Acolher. Como um jogador principal, depois que ambos os jogadores principais revelarem suas cartas, USE este poder para adicionar ou subtrair 3 do total do seu lado para cada colônia estrangeira no seu sistema natal.  Você não perde este poder por ter poucas colônias natais.",
+    "version": "CC",
+    "color": "Verde",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Citadel",
+    "name": "Cidadela",
+    "player": "Como QUALQUER jogador jogador",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Fortificação. Durante o turno de cada jogador, depois da carta de destino ser comprada, você pode jogar uma carta de ataque da sua mão virada para cima próximo à qualquer planeta em QUALQUER sistema como uma cidadela.  Se um planeta com uma ou mais cidadelas é atacado, depois das cartas de encontro serem escolhidas, mas antes delas serem reveladas, você PODE USAR este poder para ativar todas as cidadelas no planeta. Se ativadas, adicione seu valor combinado ao total do valor de defesa para o encontro. Se você ativar suas cidadelas em um planeta e a defesa perde o encontro, descarte as cidadelas. Se a defesa vence ou você não tenha ativado as cidadelas, elas permanecem onde estão.",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal ou Aliado",
+            "phase": "Revelar",
+            "description": "Como um Jogador Principal ou Aliado, depois que as cartas de encontro foram reveladas, você pode adicionar 5 ao total da defesa"
+        },
+        "super": {
+            "player": "Como qualquer jogador",
+            "phase": "Planejamento",
+            "description": "Suas cidadelas podem tanto adicionar quanto subtrair do total da defesa quando você as ativa. Cidadelas ainda são descartadas se a defesa perder, mesmo quando elas são usadas para subtrair."
+        }
+    }
+}, {
+    "original_name": "Dictador",
+    "name": "Ditador",
+    "player": "Não atacando",
+    "when": "Obrigatório",
+    "phase": "Destino",
+    "power": "Você tem o poder de Comandar. Quando você não estiver atacando, antes do destino ser escolhido, USE este poder para pegar o maço de destino, olhá-lo e escolher qualquer carta. Aquela carta de destino é jogada como se o lado ofensivo tivesse comprado-a. No seu turno, ou a qualquer hora que você for anulado, as cartas de destino restantes são embaralhadas e uma é comprada aleatoriamente.",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "NÃO ATACANDO",
+            "phase": "Destino",
+            "description": "Quando você não Estiver ATACANDO, após o destino ser escolhido, você pode forçar o jogador ATACANDO a descartar a carta d destino que ele comprou e comprar novamente. Use esta habilidade somente uma vez por encontro"
+        },
+        "super": {
+            "player": "Somente ATACANDO",
+            "phase": "Destino",
+            "description": "Você pode usar este poder ATACANDO"
+        }
+    }
+}, {
+    "original_name": "Gambler",
+    "name": "Jogador",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Revelar",
+    "power": "Você tem o poder de blefar. Depois de seu oponente revelar a carta de encontro dele ou dela, você PODE USAR este poder para manter a sua virada para baixo, afirmando qual carta é (e mentindo se você quiser). Se o seu oponente não contesta a sua afirmação, conclua o encontro como se sua afirmação fosse verdade, então coloque a carta de encontro virada para baixo no final do maço ao invés de descartá-la. Se seu oponente contesta a sua afirmação, revele sua carta. Se você mentiu, você perde tantas naves para o WARP quantas você tem no encontro. Se você disse a verdade, seu oponente perde tantas naves para o WARP quantas ele ou ela tem no encontro. Estas naves perdidas não podem ser as naves envolvidas no encontro. Depois, conclua o encontro normalmente usando as cartas reveladas.",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "Como Jogador PRINCIPAL",
+            "phase": "Revelar",
+            "description": "Como um Jogador PRINCIPAL, antes das cartas serem reveladas, você nomear qualquer número como uma 'divisão'. Se o as cartas de encontro forem diferentes entre si por aquele número ou mais, adiciona a 'divisão' a sua carta"
+        },
+        "super": {
+            "player": "",
+            "phase": "Somente Jogador PRINCIPAL",
+            "description": "Quando dizendo qual a sua carta, você pode aumentar a aposta dizendo quantas naves extras (1-20) estão em risco. A penalidade por mentir ou contestar um blefe errado é agora a quantidade de naves que você declarou como extra."
+        }
+    }
+}, {
+    "original_name": "Grudge",
+    "name": "Rancor",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Aliança",
+    "power": "Você tem o poder da Vingança. Como um jogador PRINCIPAL, depois das alianças serem formadas, USE este poder para dar um marcador \"grudge\" para cada jogador que você convidou para aliar, mas que não o fez. Se você vencer o encontro (ou fizer um acordo), cada jogador com o marcador \"grudge\" descarta-o e perde uma nave de sua escolha para o WARP. Se você perde o encontro (ou falha em fazer um acordo), cada jogador com um marcador \"grudge\" descarta-o e perde quatro naves de sua escolha para o WARP. Naves perdidas não incluem naves usadas para aliar com o outro lado.",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "Como Jogador PRINCIPAL",
+            "phase": "Resolução",
+            "description": "Se você é um Jogador PRINCIPAL e seu oponente ganhar o encontro, você pode força-lo ou seus aliados a receberem nada pela vitória, retornando suas naves a suas colônias ao invés"
+        },
+        "super": {
+            "player": "Somente Jogador PRINCIPAL",
+            "phase": "Resolução",
+            "description": "Você pode forçar cada jogador que descartou um token de Rancor a perder 4 naves para o WARP independente de você ter ou não ganho o encontro"
+        }
+    }
+}, {
+    "original_name": "Machine",
+    "name": "Máquina",
+    "player": "ATACANDO",
+    "when": "Opcional",
+    "phase": "Resolução",
+    "power": "Você tem o poder da Continuidade. O seu turno não é limitado a dois encontros. Depois de completar um encontro (com sucesso ou não), você PODE USAR este poder para ter um outro encontro desde que você tenha pelo menos uma carta de encontro em sua mão.",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "Somente ATACANDO",
+            "phase": "Resolução",
+            "description": "Como Jogador ATACANDO, você sempre pode ter um segundo encontro, mesmo se você perder o seu primeiro encontro ou se estiver sem mais cartas de econtro. Se você não tiver mais cartas de encontro no início do seu segundo encontro, compre uma mão nova."
+        },
+        "super": {
+            "player": "Somente ATACANDO",
+            "phase": "Reagrupar",
+            "description": "Durante cada uma de suas fases de Reagrupar, você comprar a carta de cima do maço ao invés de recuperar uma nave do WARP"
+        }
+    }
+}, {
+    "original_name": "Masochist",
+    "name": "Masoquista",
+    "player": "Como QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "Reagrupar",
+    "power": "Você tem o poder de ferir-se. No início da fase de reagrupar de QUALQUER jogador, antes que o ataque recupere um navio do WARP, USE este poder para vencer o jogo se você perdeu todas as suas naves. Naves perdidas incluem aquelas no WARP, aquelas removidas do jogo e aquelas capturadas por outros jogadores.  Você não perde o seu poder por ter poucas colônias natais e você ainda pode vencer o jogo da maneira normal.",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "Qualquer Jogador",
+            "phase": "Reagrupar",
+            "description": "Durante qualquer fase de REAGRUPAR, você pode escolher um jogador que não esteja ATACANDO. Aquele jogador recupera uma nave do WARP ao invés do jogador ATACANDO. Você não pode usar este flare se todas as naves do jogador ATACANDO estiverem no Warp, vapturadas ou removidas do jogo."
+        },
+        "super": {
+            "player": "Somente ATACANDO",
+            "phase": "Reagrupar",
+            "description": "Durante cada um de seus turnos de Reagrupar, voê pode escolher uma de suas naves no Warp e remove-la do jogo ao invés de recupera-la como normal"
+        }
+    }
+}, {
+    "original_name": "Tripler",
+    "name": "Triplo",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Revelar",
+    "power": "Você tem o poder de triplicar. Como um jogador PRINCIPAL, depois que você revelar uma carta de ataque, USE este poder para ajustar este valor. Se o valor da carta é 10 ou menos, triplique este valor. Se o valor da carta é maior que 10, divida o valor por 3 (arredondado para cima).",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Revelar",
+            "description": "Como um Jogador Principal, depois que seu oponente revela uma carta de ataque de 15 ou mais, você pode dividir o valor desta carta por 3 (arredondando para cima), antes que outro efeitos sejam aplicados."
+        },
+        "super": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Revelar",
+            "description": "Quando você usa seu poder, você triplicar o valor de qualquer carta que seja 13 ou menos ao invés de 10"
+        }
+    }
+}, {
+    "original_name": "Virus",
+    "name": "Vírus",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Revelar",
+    "power": "Você tem o poder de Multiplicar. Como um jogador PRINCIPAL, depois que você revelar uma carta de ataque em um encontro, USE este poder para multiplicar o número de naves que você tem no encontro vezes o valor de sua carta ao invés de somar. As naves de seus aliados ainda são adicionadas ao seu total normalmente.",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Revelar",
+            "description": "Como um Jogador Principal, você pode multiplicar o número de naves que você tem no encontro pelo numero de naves aliadas com você ao invés de soma-las"
+        },
+        "super": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Revelar",
+            "description": "Você pode multiplicar o total de todas as naves do seu lado pela sua carta de ataque quando usa seu poder, não somente suas naves"
+        }
+    }
+}, {
+    "original_name": "Void",
+    "name": "Vazio",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder de Erradicar. Como um jogador PRINCIPAL, quando você vence um encontro, USE este poder para remover do jogo as naves do lado perdedor ao invés de mandá-las para o WARP. Um jogador não pode ser reduzido a menos naves do que o número de colônias estrangeiras necessárias para vencer o jogo. Quaisquer naves erradicadas que poderiam reduzir um jogador abaixo deste número são enviadas para o WARP normalmente.",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "Como qualquer jogador",
+            "phase": "Qualquer fase",
+            "description": "Uma vez por encontro, você pode enviar uma de suas naves que não esteja no encontro para o warp para cancelar o efeito de qualquer carta de Artefato. A carta de Artefato é descartada normalmente."
+        },
+        "super": {
+            "player": "Somente como Aliado",
+            "phase": "Resolução",
+            "description": "Você pode usar seu poder como um Aliado"
+        }
+    }
+}, {
+    "original_name": "WARPISH",
+    "name": "Warpish",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Revelar",
+    "power": "Você tem o poder da Necromancia. Como um jogador PRINCIPAL, depois que você revelar uma carta de ataque em um encontro, USE este poder para adicionar 1 ao seu total para cada nave (suas ou de outros) no WARP.",
+    "version": "Normal",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "Somente como Jogador Principal",
+            "phase": "Revelar",
+            "description": "Como um Jogador Principal, depois que as cartas forem reveladas, você pode adicionar 1 ao total do seu lado para cada nave que você possuir no warp."
+        },
+        "super": {
+            "player": "Somente Jogador Principal",
+            "phase": "Revelar",
+            "description": "Como um Jogador Principal, depois que as cartas forem reveladas você pode forçar seu oponente a subtrair 1 do total dele para cada nave que ele possuir no warp"
+        }
+    }
+}, {
+    "original_name": "Disease",
+    "name": "Doença",
+    "player": "NÃO defendendo",
+    "when": "Opcional",
+    "phase": "Destino",
+    "power": "Você tem o poder do Contágio. Sempre que qualquer cor de outro jogador ou uma carta dd destino especial que tem como alvo outro jogador é comprada do maço de destino, você PODE USAR este poder para infectar aquele jogador. Se você tem uma ou mais colônias no sistema natal do jogador consistindo de pelo menos 3 naves, escolha uma dessas colônias e pegue um ou mais de suas figuras de lá, movendo-as para qualquer outro planeta naquele sistema. Suas naves coexistem com quaisquer outras naves já naquele planeta ao menos que outro efeito de jogo previna você de fazer isso, nesse caso elas não podem ser movidas para aquele planeta. Em uma carta curinga de destino, você pode somente infectar o jogador escolhido para ser o defensor.",
+    "version": "CI",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Genius",
+    "name": "Gênio",
+    "player": "Jogador PRINCIPAL ou ALIADO",
+    "when": "Opcional",
+    "phase": "Resolução",
+    "power": "Você tem o poder de iludir. Como um jogador PRINCIPAL ou aliado, sempre que você ganha uma colônia estrangeira como resultado de um encontro vencedor, você PODE USAR este poder para instantâneamente comprar uma carta do maço para cada nave que você tem no encontro e então enviar suas naves no encontro de volta para suas outras colônias.  No início de qualquer turno, se você tem 20 ou mais cartas na sua mão, você imediatamente vence o jogo. Você pode ainda vencer o jogo pelo método normal.",
+    "version": "CI",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Ghoul",
+    "name": "Ghoul",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Resolução",
+    "power": "Você tem o poder de Festejar. Como um jogador PRINCIPAL, após você vencer um encontro, USE este poder. Para cada nave opositora enviada para o WARP como o resultado de um encontro, você recebe uma recompensa de defesa (receber uma nave do WARP ou comprar uma carta do maço).",
+    "version": "CI",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Magician",
+    "name": "Mágico",
+    "player": "Jogador PRINCIPAL",
+    "when": "Obrigatório",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Prestidigitação. Como um jogador PRINCIPAL, USE este poder antes das cartas de encontro serem escolhidas para forçar seu oponente a jogar duas cartas de encontro viradas para baixo. Escolha uma das duas cartas aleatoriamente e adicione-a à sua mão. Então, jogue uma carta de encontro da sua mão normalmente (até mesmo a carta que você acabou de pegar). Seu oponente deve jogar a carta que você não escolheu como carta de encontro dele(a). O resto do encontro é resolvido como sempre.  Se seu oponente tem somente uma carta de encontro restante na mão (e prova mostrando para você sua mão exceto pela carta de encontro), seu poder não tem efeito.",
+    "version": "CI",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Plant",
+    "name": "Planta",
+    "player": "Jogador PRINCIPAL",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder do enxerto. Como um jogador PRINCIPAL, antes das cartas de encontro serem selecionadas, você PODE USAR este poder para enxertar qualquer um jogador cujo sistema natal você tenha pelo menos uma colônia. Se aquele jogador não tiver perdido seu poder, você rouba aquele poder até o final do encontro. Se você perde o seu próprio poder, você não pode enxertar qualquer poder até você pegá-lo de volta.",
+    "version": "CI",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Filth",
+    "name": "Sujeira",
+    "player": "Como QUALQUER jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Você tem o poder de Exalar. A qualquer hora que uma de suas naves estão coexistindo no mesmo planeta com outras naves de outros jogadores, USE este poder para forçar que as naves dos outros jogadores retornem para as colônias deles ou delas.  Seus aliados em um encontro de ataque vencedor não aterrisam no planeta defensor com você. Entretanto, cada um deles ainda ganha uma colônia em qualquer outro planeta da escolha deles (cada jogador escolhe separadamente) no sistema defensor.  Quando você perde um encontrro como defensor em um planeta onde você tem naves, USE este poder para forçar todas as naves opositoras voltarem para suas colônias ao invés de aterrisarem no seu planeta. Suas naves perdidas vão para o WARP normalmente e o planeta é então \"detetizado\". Quando você concorda em trocar colônias em um acordo, você e aquele outro jogador devem cada um desocupar um planeta para o outro jogador aterrisar nele.",
+    "version": "CC",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Prophet",
+    "name": "Profeta",
+    "player": "Nem Jogador PRINCIPAL e nem ALIADO",
+    "when": "Opcional",
+    "phase": "Planejamento",
+    "power": "Você tem o poder da Predição. Se você não está envolvido como um jogador PRINCIPAL ou aliado em um encontro, você PODE este poder antes das cartas de encontro serem escolhidas para predizer em alto tom qual jogador PRINCIPAL (ofensivo ou defensivo) vencerá. Um acordo conta como uma vitória. Se você estiver correto, você ganha uma colônia em em qualquer um planeta da sua escolha. Se você estiver errado, o vencedor seleciona qualquer duas de suas naves e envia-as para o WARP.",
+    "version": "CC",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Relic",
+    "name": "Relíquia",
+    "player": "Como QUALQUER jogador jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Você tem o poder para despertar. A qualquer que um outro jogador compra uma nova mão de cartas (depois da mão inicial dele) USE este poder para imediatamente ganhar uma colônia estrangeira de graça no sistema natal dele em um planeta da sua escolha.  A qualquer hora que você compra uma nova mão de cartas (depois de sua mão inicial) USE este poder para recuperar todas as suas naves do WARP, retornando-as para suas colônias.",
+    "version": "CC",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Saboteur",
+    "name": "Sabotador",
+    "player": "Como QUALQUER jogador jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Preparação do jogo: Pegue um marcador de armadilha e dois marcadores de iscas por jogador (incluindo você). Coloque esses marcadores virados para baixo próximo à quaisquer planetas de sua escolha. Não coloque mais do que um marcador próximo a um planeta.  Você tem o poder da armadilha. A qualquer hora que naves aterrisam em um planeta com um de seus marcadores próximos, USE este poder para revelar o marcador. Se o marcador revelado é uma isca, retorne o marcador para sua ficha. Se o marcador é uma armadilha, mande todas as naves que estão naquele planeta (incluindo aquelas que acabaram de pousar) para o WARP e então retorne o marcador para esta ficha.  No início de cada encontro, você pode trocar qualquer dois dos seus marcadores (próximo a um planeta ou nesta ficha) ou pegar um marcador nesta ficha e colocá-lo virado para baixo próximo a qualquer planeta que já não tenha um marcador perto dele.",
+    "version": "CC",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "Sadist",
+    "name": "Sádico",
+    "player": "Como QUALQUER jogador jogador",
+    "when": "Obrigatório",
+    "phase": "Reagrupar",
+    "power": "Você tem o poder de Infligir Dor. No início da fase de reagrupamento de QUALQUER jogador, antes do retorno de naves ofensivas do WARP, USE este poder para vencer o jogo se todos os outros jogadores tiverem perdido pelo menos oito naves. Naves perdidas incluem naves no WARP, naves removidas do jogo e naves capturadas por outros jogadores.  Você ainda pode vencer pelo método normal.",
+    "version": "CC",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}, {
+    "original_name": "The Claw",
+    "name": "A Garra",
+    "player": "Como QUALQUER jogador jogador",
+    "when": "Obrigatório",
+    "phase": "-",
+    "power": "Prepação do jogo: Escolha um carta que não seja de negociação de sua mão inicial para ser a sua \"garra\" e coloque-a virada para baixo na sua ficha; então compre uma nova carta do maço.  Você tem o poder da Garra. Sua garra não é considerada parte da sua mão. Outros jogadores não podem olhar ou comprá-la. No início de QUALQUER fase de reagrupamento, você pode trocar uma carta de sua mão com sua garra.  Uma vez por encontro, quando um outro jogador jogar uma outra cópia da carta que você escolheu como sua garra, USE este poder e revele sua garra. Depois do final do encontro corrente, escolha um planeta do sistema natal do jogador e mova-o para seu sistema natal, mandando quaisquer naves nele para o WARP e fazendo-o um novo planeta natal para você (embora você não precise estabelecer uma colônia nele). Então, retorne sua carta de garra para sua mão e escolha uma carta da sua mão para se tornar sua nova garra (pode ser a carta usada anteriormente).  Cada planeta roubado no seu sistema natal conta como uma colônia estrangeira para você vencer, mesmo se habitada por outros jogadores. Se você ganha uma colônia em um planeta roubado em seu sistema natal, aquela colônia conta como uma colônia natal para você, não como uma colônia estrangeira.",
+    "version": "CC",
+    "color": "Vermelha",
+    "flare": {
+        "wild": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        },
+        "super": {
+            "player": "",
+            "phase": "",
+            "description": ""
+        }
+    }
+}]
