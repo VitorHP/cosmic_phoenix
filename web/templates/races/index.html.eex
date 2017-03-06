@@ -3,8 +3,8 @@
 <ul>
   <%= for race <- @races do %>
     <li>
-      <a href="<%= races_path(@conn, :show, race["name"]) %>">
-        <%= race["name"] %>
+      <a href="<%= races_path(@conn, :show, race["original_name"]) %>">
+        <%= race["original_name"] %>
       </a>
     </li>
   <% end %>

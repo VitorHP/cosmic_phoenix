@@ -4,14 +4,14 @@ defmodule Cosmic.RacesController do
   def index(conn, _params) do
     races = File.read!(races_file)
       |> Poison.decode!()
-      |> Enum.sort(fn(a, b) -> normalized_race_name(a["name"]) < normalized_race_name(b["name"]) end)
+      |> Enum.sort(fn(a, b) -> normalized_race_name(a["original_name"]) < normalized_race_name(b["original_name"]) end)
 
     # json conn, races
     render conn, "index.html", races: races
   end
 
   def show(conn, %{"name" => name}) do
-    race = File.read!(races_file) |> Poison.decode!() |> race_with_name(name)
+    race = File.read!(races_file) |> Poison.decode!() |> race_with_original_name(name)
 
     render conn, "show.html", race: race
   end
@@ -20,8 +20,8 @@ defmodule Cosmic.RacesController do
     Path.join(:code.priv_dir(:cosmic), "data/races.json")
   end
 
-  defp race_with_name(races, name) do
-    Enum.find(races, nil, fn(r) -> Regex.match?(~r/#{name}/i, r["name"]) end)
+  defp race_with_original_name(races, name) do
+    Enum.find(races, nil, fn(r) -> Regex.match?(~r/#{name}/i, r["original_name"]) end)
   end
 
   defp normalized_race_name(race_name) do

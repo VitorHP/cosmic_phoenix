@@ -4,6 +4,28 @@
   display: inline-block
 }
 
+.power__title {
+  margin-bottom: 1rem;
+}
+
+.power__player {
+  background-color: #aaa;
+  padding: .6rem;
+  border-radius: 10%;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.power__when {
+  background-color: #777;
+  padding: .6rem;
+  border-radius: 10%;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .phase-list {
   font-weight: bold;
 }
