@@ -1,22 +1,24 @@
-<div class="race">
-  <h1>
-    <%= @race["name"] %>
-  </h1>
+<div class="col-md-6 col-md-offset-3">
+  <div class="race">
+    <h1>
+      <%= @race["name"] %>
+    </h1>
 
-  <div class="power">
-    <div class="power__title">
-      <span class="power__player"><%= @race["player"] %></span>
-      <span class="power__when"><%= @race["when"] %></span>
+    <div class="power">
+      <div class="power__title">
+        <span class="power__player"><%= @race["player"] %></span>
+        <span class="power__when"><%= @race["when"] %></span>
+      </div>
+
+      <p><%= @race["power"] %></p>
     </div>
 
-    <p><%= @race["power"] %></p>
+    <ul class="list-inline phases">
+      <%= for phase <- phase_list @race do %>
+        <li class="<%= active_class(phase.selected) %>">
+          <%= phase.name %>
+        </li>
+      <% end %>
+    </ul>
   </div>
-
-  <ul class="list-inline phases">
-    <%= for phase <- phase_list @race do %>
-      <li class="<%= active_class(phase.selected) %>">
-        <%= phase.name %>
-      </li>
-    <% end %>
-  </ul>
 </div>

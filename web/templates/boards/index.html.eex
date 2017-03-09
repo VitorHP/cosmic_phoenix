@@ -1,0 +1,51 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="score">
+      <%= for player_score <- score @players do %>
+        <div><%= player_score.color %>: <%= player_score.points %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <%= for player <- @players do %>
+    <div class="col-md-2">
+      <div class="player">
+        <div class="player__header player__header--<%= player.color %>">
+          <span class="player__race"><%= player.race %></span>
+          <span class="player__name"><%= player.name %></span>
+          <span class="player__total-ships">
+            <i class="fa fa-rocket"></i>
+            <%= total_ships player.planets, player.color %>
+          </span>
+          <span class="player__hand-size">
+            <i class="fa fa-bolt"/></i>
+            <%= player.cards %>
+          </span>
+        </div>
+        <div class="player__body">
+          <ul class="list-unstyled player__planets">
+            <%= for planet <- planets player do %>
+              <li>
+                <img class="<%= planet_classes planet.lost %>" src="/images/planet.svg"/>
+                <ul class="list-inline player__ships">
+                  <%= for ship <- ships planet.ships do %>
+                    <li class="player__ship player__ship--<%= ship.color %>">
+                      <%= ship.count %>
+                    </li>
+                  <% end %>
+                </ul>
+              </li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+  </div>
+</div>

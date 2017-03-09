@@ -20,6 +20,8 @@ defmodule Cosmic.Router do
 
     get "/races", RacesController, :index
     get "/races/:name", RacesController, :show
+
+    get "/boards/", BoardsController, :index
   end
 
   # Other scopes may use custom stacks.

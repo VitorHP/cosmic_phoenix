@@ -1,7 +1,7 @@
 /* This file is for your main application css. */
 
-.list-inline li {
-  display: inline-block
+body {
+  font-family: Roboto, sans-serif;
 }
 
 .power__title {
@@ -40,3 +40,84 @@
   background-color: #000;
   color: #fff;
 }
+
+.player {
+  background-color: #eee;
+  box-shadow: 1px 0px 10px;
+}
+
+.player__header, .player__body {
+  padding: 1rem
+}
+
+.player__header {
+  color: white
+}
+
+.player__header--blue {
+  background-color: navy
+}
+
+.player__header--red {
+  background-color: red
+}
+
+.player__header--green {
+  background-color: teal
+}
+
+.player__race {
+  text-transform: uppercase;
+  font-weight: 300;
+  display: block;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-top: 1rem
+}
+
+.player__name {
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.player__total-ships {
+  margin-right: 1rem;
+}
+
+.player__planet {
+  height: 50px;
+}
+
+.player__planet--lost {
+  filter: opacity(50%);
+}
+
+.player__ships {
+  display: inline-block;
+}
+
+.player__ship {
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.player__ship--blue {
+  background-color: navy;
+  color: white;
+}
+
+.player__ship--red {
+  background-color: red;
+  color: white;
+}
+
+.player__ship--green {
+  background-color: teal;
+  color: white;
+}
+
