@@ -1,8 +1,8 @@
-<h1>Races</h1>
+<h1 class="races__title">Races</h1>
 
-<ul>
+<ul class="list-unstyled">
   <%= for race <- @races do %>
-    <li>
+    <li class="races__name">
       <a href="<%= races_path(@conn, :show, race["original_name"]) %>">
         <%= race["original_name"] %>
       </a>

@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-xs-12">
+    <div class="score-board">
+      <div>Score</div>
+      <div class="row">
+        <%= for score_board_round <- score_board(score(@players)) do %>
+          <div class="col-xs-2">
+            <%= for player_color <- score_board_round do %>
+              <div class="score-board__current-score">
+                <i class="fa fa-2x fa-space-shuttle"></i>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -35,4 +35,23 @@ defmodule Cosmic.BoardsView do
     |> Enum.map(fn(player) -> total_ships(player.planets, color) end)
     |> Enum.reduce(0, fn(ships_on_colony, acc) -> if ships_on_colony > 0, do: acc + 1, else: acc end)
   end
+
+  def attacking(players) do
+    List.first(players)
+  end
+
+  def defending(players) do
+    List.last(players)
+  end
+
+  # def score_board(score) do
+  #   score
+  #   |> Enum.count
+  #   |> fn(count) -> 0..count end.()
+  #   |> Enum.map(fn(point) ->
+  #     Enum.map(score, fn(player_score) ->
+  #       if player_score.points >= point, do: player_score.color, else: ""
+  #     end)
+  #   end)
+  # end
 end

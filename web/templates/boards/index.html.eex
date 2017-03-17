@@ -1,14 +1,4 @@
 <div class="row">
-  <div class="col-md-12">
-    <div class="score">
-      <%= for player_score <- score @players do %>
-        <div><%= player_score.color %>: <%= player_score.points %>
-      <% end %>
-    </div>
-  </div>
-</div>
-
-<div class="row">
   <%= for player <- @players do %>
     <div class="col-md-2">
       <div class="player">
@@ -19,9 +9,9 @@
             <i class="fa fa-rocket"></i>
             <%= total_ships player.planets, player.color %>
           </span>
-          <span class="player__hand-size">
-            <i class="fa fa-bolt"/></i>
-            <%= player.cards %>
+          <span class="player__colonies">
+            <i class="fa fa-flag"/></i>
+            <%= player_score @players, player.color %>
           </span>
         </div>
         <div class="player__body">
@@ -45,7 +35,37 @@
   <% end %>
 </div>
 
-<div class="row">
-  <div class="col-md-4">
+<div class="arena">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="arena__title arena__title--<%= attacking(@players).color %>"><%= attacking(@players).race %></h1>
+      <span class="arena__ships arena__ships--<%= attacking(@players).color %>">
+        <i class="fa fa-rocket"></i>
+        <%= total_ships attacking(@players).planets, attacking(@players).color %>
+      </span>
+      <i class="fa fa-4x fa-plus arena__plus"></i>
+      <span class="arena__allies">
+        <div class="arena__ships arena__ships--ally arena__ships--red">
+          <i class="fa fa-rocket"></i>
+          4
+        </div>
+        <div class="arena__ships arena__ships--ally arena__ships--green">
+          <i class="fa fa-rocket"></i>
+          2
+        </div>
+      </span>
+      <i class="fa fa-4x fa-plus arena__plus"></i>
+      <span class="card">
+        <span class="card__title">40</span>
+      </span>
+    </div>
+
+    <div class="col-md-6">
+      <div class="arena__defending">
+        <h1>Defending</h1>
+        <div><%= defending(@players).race %></div>
+        <div>
+      </div>
+    </div>
   </div>
 </div>

@@ -16,9 +16,7 @@ defmodule Cosmic.Router do
   scope "/", Cosmic do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
-
-    get "/races", RacesController, :index
+    get "/", RacesController, :index
     get "/races/:name", RacesController, :show
 
     get "/boards/", BoardsController, :index

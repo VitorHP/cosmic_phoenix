@@ -4,8 +4,28 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.races {
+
+}
+
+.races__title {
+  text-align: center;
+}
+
+.races__name {
+  text-align: center;
+}
+
+.race__name {
+  margin-bottom: 20px;
+}
+
 .power__title {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.power__description {
+  margin-bottom: 1.5rem;
 }
 
 .power__player {
@@ -121,3 +141,110 @@ body {
   color: white;
 }
 
+.score-board__current-score {
+  text-align: center;
+  position: relative;
+}
+
+.score-board__current-score::before {
+  content: " ";
+  height: 5px;
+  width: 50%;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 48%;
+  z-index: -1;
+}
+
+.arena {
+}
+
+.arena__title {
+  position: relative;
+}
+
+.arena__title::after {
+  height: 0;
+  width: 0;
+  border-top: 40px solid transparent;
+  border-left: 20px solid;
+  border-bottom: 39px solid transparent;
+  content: " ";
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+
+.arena__title--blue {
+  background-color: navy;
+  color: white;
+  padding: 2rem;
+}
+
+.arena__title--blue::after {
+  border-left-color: navy;
+}
+
+.arena__allies {
+  display: inline-block
+}
+
+.arena__ships {
+  color: white;
+  vertical-align: top;
+}
+
+.arena__ships {
+  background-color: black;
+  display: inline-block;
+  height: 12rem;
+  line-height: 12rem;
+  width: 12rem;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.arena__ships--ally {
+  height: 6rem;
+  line-height: 6rem;
+  width: 6rem;
+  font-size: 2rem;
+  display: block;
+}
+
+.arena__ships--blue {
+  background-color: navy;
+}
+
+.arena__ships--red {
+  background-color: red;
+}
+
+.arena__ships--green {
+  background-color: teal;
+}
+
+.arena__plus {
+  margin: 0 2rem
+}
+
+.card {
+  display: inline-block;
+  height: 12rem;
+  width: 100px;
+  background-color: black;
+  border-radius: 10%;
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  vertical-align: top;
+}
+
+.card__title {
+  line-height: 12rem;
+  display: inline-block;
+}
