@@ -8,6 +8,10 @@ defmodule Cosmic.PlanetTest do
     assert %{} == struct(Planet, %{}).ships
   end
 
+  test "#new" do
+    assert %Planet{ color: "blue", ships: %{ "blue" => 2 } } == Planet.new("blue", 2)
+  end
+
   describe "#add_ships" do
     test "adding ships" do
       assert %Planet{ ships: %{ "blue" => 2 } } == Planet.add_ships(%Planet{}, { "blue", 2 })
@@ -62,5 +66,9 @@ defmodule Cosmic.PlanetTest do
     test "in other planets where it has no ships" do
       assert false == Planet.has_colony?(%Planet{ color: "red", ships: %{ "red" => 2 }}, "blue")
     end
+  end
+
+  describe "colony_colors" do
+    assert ["green", "red"] == Planet.colony_colors(%Planet{ color: "blue", ships: %{ "red" => 1, "green" => 3, "blue" => 2 }})
   end
 end
