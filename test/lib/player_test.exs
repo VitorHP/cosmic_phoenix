@@ -5,11 +5,11 @@ defmodule Cosmic.PlayerTest do
 
   test "#new" do
     assert %Player{ color: "blue", planets: [
-        %Planet{ color: "blue", ships: %{ "blue" => 2 }},
-        %Planet{ color: "blue", ships: %{ "blue" => 2 }},
-        %Planet{ color: "blue", ships: %{ "blue" => 2 }},
-        %Planet{ color: "blue", ships: %{ "blue" => 2 }},
-        %Planet{ color: "blue", ships: %{ "blue" => 2 }}
+        %Planet{ color: "blue", ships: %{ "blue" => 4 }},
+        %Planet{ color: "blue", ships: %{ "blue" => 4 }},
+        %Planet{ color: "blue", ships: %{ "blue" => 4 }},
+        %Planet{ color: "blue", ships: %{ "blue" => 4 }},
+        %Planet{ color: "blue", ships: %{ "blue" => 4 }}
       ]} == Player.new("blue")
   end
 

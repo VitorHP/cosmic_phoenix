@@ -4,6 +4,20 @@ defmodule Cosmic.GameTest do
   alias Cosmic.Player
   alias Cosmic.Planet
 
+  describe "new" do
+    test "has a destiny deck" do
+      assert nil != Game.new().destiny_deck
+    end
+
+    test "has a cosmic deck" do
+      assert nil != Game.new().cosmic_deck
+    end
+
+    test "has a tech deck" do
+      assert nil != Game.new().tech_deck
+    end
+  end
+
   test "add_player" do
     assert %Game{ players: [Player.new("blue")] } == Game.add_player(%Game{}, "blue")
   end

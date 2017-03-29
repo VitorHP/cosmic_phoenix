@@ -5,7 +5,7 @@ defmodule Cosmic.Player do
   def new(color) do
     %__MODULE__{
       color: color,
-      planets: 1..5 |> Enum.map(fn(_) -> Planet.new(color, 2) end)
+      planets: 1..5 |> Enum.map(fn(_) -> Planet.new(color, 4) end)
     }
   end
 end
