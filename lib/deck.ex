@@ -1,34 +1,15 @@
 defmodule Cosmic.Deck do
-  defstruct cards: []
   alias Cosmic.Card
 
   def new(type) do
     case type do
       :cosmic ->
-        %__MODULE__{ cards: cosmic_deck }
+        cosmic_deck
       :tech ->
-        %__MODULE__{ cards: tech_deck }
+        tech_deck
       :destiny ->
-        %__MODULE__{ cards: destiny_deck }
+        destiny_deck
     end
-  end
-
-  def shuffle(deck) do
-    %__MODULE__{
-      cards: deck.cards |> Enum.shuffle
-    }
-  end
-
-  def buy(%__MODULE__{ cards: []} = deck), do: { nil, deck }
-  def buy(deck) do
-    [ head | tail ] = deck.cards
-
-    {
-      head,
-      %__MODULE__{
-        cards: tail
-      }
-    }
   end
 
   defp cosmic_deck do

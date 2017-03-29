@@ -7,9 +7,9 @@ defmodule Cosmic.Game do
 
   def new do
     %__MODULE__{
-      destiny_deck: Deck.new(:destiny) |> Deck.shuffle,
-      tech_deck: Deck.new(:tech) |> Deck.shuffle,
-      cosmic_deck: Deck.new(:tech) |> Deck.shuffle,
+      destiny_deck: Deck.new(:destiny) |> Enum.shuffle,
+      tech_deck: Deck.new(:tech) |> Enum.shuffle,
+      cosmic_deck: Deck.new(:tech) |> Enum.shuffle,
     }
   end
 
