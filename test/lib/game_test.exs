@@ -3,6 +3,7 @@ defmodule Cosmic.GameTest do
   alias Cosmic.Game
   alias Cosmic.Player
   alias Cosmic.Planet
+  alias Cosmic.Card
 
   describe "new" do
     test "has a destiny deck" do
@@ -41,6 +42,39 @@ defmodule Cosmic.GameTest do
         ]}
       ]
     })
+  end
+
+  test "deal_cosmic_cards" do
+    assert %Game{
+      cosmic_deck: [],
+      players: [
+        %Player{
+          color: "blue",
+          cosmic_cards: [
+            %Card{id: 8},
+            %Card{id: 7},
+            %Card{id: 6},
+            %Card{id: 5},
+            %Card{id: 4},
+            %Card{id: 3},
+            %Card{id: 2},
+            %Card{id: 1}
+          ]
+        }
+      ]} ==
+      Game.deal_cosmic_cards(%Game{
+        cosmic_deck: [
+          %Card{id: 1},
+          %Card{id: 2},
+          %Card{id: 3},
+          %Card{id: 4},
+          %Card{id: 5},
+          %Card{id: 6},
+          %Card{id: 7},
+          %Card{id: 8}
+        ],
+        players: [%Player{ color: "blue"}]
+      })
   end
 
 end
